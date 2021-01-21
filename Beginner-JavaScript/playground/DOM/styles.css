@@ -1,0 +1,7 @@
+img {
+    transition: all 0.2s;
+}
+.pic {
+    border-radius: 50%;
+    transform: rotate(360deg);
+}

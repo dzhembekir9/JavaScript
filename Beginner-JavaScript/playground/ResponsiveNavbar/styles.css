@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container {
+    display: flex;
+    list-style-type: none;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.navbar-container li a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    opacity: 0.5;
+}

@@ -1,8 +1,14 @@
-console.log('It works');
+let counter = 0;
 
-function add(a, b = 3) {
-    const total = a + b;
-    return total;
+const sayHi = () => {
+   counter++;
+   console.log(counter);
 }
 
-const sum = (a, b = 3) => a + b;
+const input = document.querySelector(".input");
+input.addEventListener("keypress", () => {
+    console.log('Nice job');
+});
+
+setTimeout(sayHi, 2000);
+

@@ -1,0 +1,27 @@
+/* test2 */
+
+/* .redtext {
+    color: red;
+    background-color: rebeccapurple;
+    padding: 20px;
+} */
+
+/* test3 */
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    font-size: 100px;
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
