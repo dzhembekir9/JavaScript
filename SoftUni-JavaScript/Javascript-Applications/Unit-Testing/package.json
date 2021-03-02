@@ -1,0 +1,16 @@
+{
+  "name": "javascript-applications",
+  "version": "1.0.0",
+  "description": "",
+  "main": "errorHandling.js",
+  "scripts": {
+    "start": "node sumOfNumbers.js",
+    "test": "mocha test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0"
+  }
+}
